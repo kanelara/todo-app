@@ -1,0 +1,90 @@
+
+/*Groupe CHEIKH DIOP & Oumar Kane & AWA Thiam */
+/*Groupe CHEIKH DIOP & Oumar Kane & AWA Thiam */
+/*Groupe CHEIKH DIOP & Oumar Kane & AWA Thiam */
+/*Groupe CHEIKH DIOP & Oumar Kane & AWA Thiam */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  h2 {
+    font-weight: normal;
+  }
+  .todo-form {
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-bottom: 100px;
+    gap: 10px;
+    align-items: flex-start;
+    width: 50%;
+  }
+  .todo-form input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px 8px;
+    font-size: 14px;
+  }
+  .todo-form input.title {
+    width: 150px;
+    margin-right: 20px;
+  }
+  .todo-form input.description {
+    width: 200px;
+    margin-right: 20px;
+  }
+  .todo-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .Please {
+    color: #800000;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+  }
+  th {
+    text-align: left;
+    background-color: #f9f9f9;
+  }
+  td input[type="checkbox"] {
+    margin-left: 5px;
+  }
+  .status {
+    font-size: 12px;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background-color: #28a745;
+    display: inline-block;
+  }
+  .eddit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 4px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 4px 12px;
+    font-size: 12px;
+    cursor: pointer;
+  }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Todo Application</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h2>Todo Application</h2>
+
+<form class="todo-form" onsubmit="return false;">
+  <input type="text" class="title" placeholder="Todo Title" />
+  <input type="text" class="description" placeholder="Description" />
+  <button type="submit">Create Todo</button> 
+  <div class="Please">Please enter todo title</div>
+</form>
+ <table>
+  <thead>
+    <tr>
+      <th><input type="checkbox" /></th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>TodoList 1</td>
+      <td>This is first todo</td>
+      <td><span class="status">Completed</span></td>
+      <td>
+        <button class="eddit">Edit</button>
+        <button class="delete">Delete</button>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>TodoList 2</td>
+      <td>This is second todo</td>
+      <td><span class="status">Completed</span></td>
+      <td>
+        <button class="eddit">Edit</button>
+        <button class="delete">Delete</button>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" /></td>
+      <td>TodoList 3</td>
+      <td>This is third todo</td>
+      <td><span class="status">Completed</span></td>
+      <td>
+        <button class="eddit">Edit</button>
+        <button class="delete">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
